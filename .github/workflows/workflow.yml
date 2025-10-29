@@ -1,5 +1,9 @@
 name: directory-listing
-on: [push]
+on:
+  push:
+    branches:
+      - main
+      - source
 
 jobs:
   pages-directory-listing:
